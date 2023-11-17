@@ -47,3 +47,4 @@ st.write("Seleccionó:", len(location), "locaciones")
 st.subheader("slider")
 # slider
 level=st.slider("Cual es tu nivel?", 1, 5)
+st.write("Nivel:", level)
