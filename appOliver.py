@@ -40,7 +40,7 @@ st.write("Opción seleccionada:", occupation)
 st.subheader("Multiselect")
 #Multiselect
 location=st.multiselect(
-    "Donde trabajas?.
+    "Donde trabajas?,
     ("México", "Nueva York", "Guadalajara", "Monterrey", "Nepal", "Buenos Aires", "Caracas"),
 )
 st.write("Seleccionó:", len(location), "locaciones")
